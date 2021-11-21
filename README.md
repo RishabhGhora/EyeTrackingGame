@@ -11,7 +11,6 @@
 A single-player game where you control the spaceship using your eyes, fingers,
 and mouse.<br>
 
-**Source:** https://github.com/farisdurrani/CS6456Project <br>
 **Authors:** [Faris Durrani](https://github.com/farisdurrani/),
 [Rishabh Ghora](https://github.com/RishabhGhora)
 
