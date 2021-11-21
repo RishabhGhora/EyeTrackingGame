@@ -1,30 +1,4 @@
-# Eye Tracking Game
-
-## Installation
-
-### For Pip install
-
-Install these dependencies (NumPy, OpenCV, Dlib):
-
-```shell
-python3.7 -m venv venv
-```
-
-```shell
-source venv/bin/activate
-```
-
-```shell
-pip install -r requirements.txt
-```
-
-### Verify Installation
-
-Run the demo:
-
-```shell
-python example.py
-```
+# Eye Tracking System
 
 ## Simple Demo
 
