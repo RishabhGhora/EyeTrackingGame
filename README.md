@@ -20,6 +20,8 @@ and mouse.<br>
 1. Install the dependencies in `requirements.txt`. Runs on Python 3.7+
 2. Run the `spaceship_battle.py` file.
 
+NOTE: to run on windows machines clone the 'windows' branch. The only difference is dealing with file paths for images differently.
+
 ## How to play
 
 ### Eye Gaze for Main Control
