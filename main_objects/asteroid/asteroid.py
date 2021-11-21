@@ -10,8 +10,8 @@ class Asteroid:
         self.ASTEROID_HEIGHT = 50
         self.ASTEROID_SPEED = 15
         self.DAMAGE = 100
-        #SPACESHIP_ICON = r'main_objects\\asteroid\\asteroid_icon.jpg'
-        SPACESHIP_ICON = r'main_objects/asteroid/asteroid_icon.jpg'
+        SPACESHIP_ICON = r'main_objects\\asteroid\\asteroid_icon.jpg'
+        #SPACESHIP_ICON = r'main_objects/asteroid/asteroid_icon.jpg'
 
         raw_asteroid_image = pygame.image.load(SPACESHIP_ICON)
         self.scaled_asteroid_image = pygame.transform \

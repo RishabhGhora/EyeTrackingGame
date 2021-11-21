@@ -11,10 +11,10 @@ class FriendShip(ship_blueprint.Ship):
         FRIEND_MAX_HEALTH = 100
         TOP_LEFT_INITIAL = GenFunctions.rand_coord()
         FRIEND_HEIGHT = 50
-        #FRIEND_SHIP_ICON = r'main_objects\\friend_ship\\friend_ship_icon.png'
-        FRIEND_SHIP_ICON = r'main_objects/friend_ship/friend_ship_icon.png'
-        #FIRST_VIEW_ICON = r'main_objects\\friend_ship\\friend_ship_3rd_icon.png'
-        FIRST_VIEW_ICON = r'main_objects/friend_ship/friend_ship_3rd_icon.png'
+        FRIEND_SHIP_ICON = r'main_objects\\friend_ship\\friend_ship_icon.png'
+        #FRIEND_SHIP_ICON = r'main_objects/friend_ship/friend_ship_icon.png'
+        FIRST_VIEW_ICON = r'main_objects\\friend_ship\\friend_ship_3rd_icon.png'
+        #FIRST_VIEW_ICON = r'main_objects/friend_ship/friend_ship_3rd_icon.png'
 
         super().__init__(FRIEND_MAX_HEALTH, TOP_LEFT_INITIAL, FRIEND_HEIGHT,
                          FRIEND_SHIP_ICON, FIRST_VIEW_ICON)

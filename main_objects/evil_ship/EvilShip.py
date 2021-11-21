@@ -11,10 +11,10 @@ class EvilShip(ship_blueprint.Ship):
         # main_objects characteristics
         SPACESHIP_MAX_HEALTH = 100
         SPACESHIP_HEIGHT = 50
-        #SPACESHIP_ICON = r'main_objects\\evil_ship\\evil_ship_icon.png'
-        SPACESHIP_ICON = r'main_objects/evil_ship/evil_ship_icon.png'
-        #FIRST_VIEW_ICON = r'main_objects\\evil_ship\\evil_ship_3rd_icon.png'
-        FIRST_VIEW_ICON = r'main_objects/evil_ship/evil_ship_3rd_icon.png'
+        SPACESHIP_ICON = r'main_objects\\evil_ship\\evil_ship_icon.png'
+        #SPACESHIP_ICON = r'main_objects/evil_ship/evil_ship_icon.png'
+        FIRST_VIEW_ICON = r'main_objects\\evil_ship\\evil_ship_3rd_icon.png'
+        #FIRST_VIEW_ICON = r'main_objects/evil_ship/evil_ship_3rd_icon.png'
         top_left_init = GenFunctions.rand_coord_padded()
         super().__init__(SPACESHIP_MAX_HEALTH, top_left_init, SPACESHIP_HEIGHT,
                          SPACESHIP_ICON, FIRST_VIEW_ICON)

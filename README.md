@@ -21,10 +21,9 @@ and mouse.<br>
 2. Install the dependencies. `pip install -r requirements.txt`
 3. Run. `python spaceship_battle.py`
 
-Note: This project is meant to run on a Windows machine with webcam and touchscreen, please use 'windows' branch if this applies.
-
-If you have a mac without a touchscreen and would like to run the game just for the eye tracking features please clone the
-master branch.
+Note: This project is meant to run on a Windows machine with webcam and touchscreen. If you have a mac
+without a touchscreen and would like to run the game just for the eye tracking features please clone the
+'mac' branch.
 
 ## Main libraries (from `requirements.txt`)
 
