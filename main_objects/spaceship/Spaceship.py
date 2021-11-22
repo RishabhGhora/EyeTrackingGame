@@ -12,8 +12,8 @@ class Spaceship(ship_blueprint.Ship):
         # main_objects characteristics
         SPACESHIP_MAX_HEALTH = 10000
         SPACESHIP_HEIGHT = 80
-        SPACESHIP_ICON = r'main_objects\\spaceship\\spaceship_icon.png'
-        #SPACESHIP_ICON = r'main_objects/spaceship/spaceship_icon.png'
+        #SPACESHIP_ICON = r'main_objects\\spaceship\\spaceship_icon.png'
+        SPACESHIP_ICON = r'main_objects/spaceship/spaceship_icon.png'
         TOP_LEFT = [
             int(Constants.CENTER[0] - SPACESHIP_HEIGHT / 2),
             int(Constants.CENTER[1] - SPACESHIP_HEIGHT / 2)
